@@ -41,7 +41,7 @@ export class Api {
         this.API = 'https://gdsc-dju.kro.kr';
     }
     getPostListData = (params: string) => {
-        return axios.get<RowDetailPostListType>(`${this.API}/api/v1/post/list`);
+        return axios.get<RowDetailPostListType>(`https://gdsc-dju.kro.kr/api/v1/post/list`);
     };
 }
 
